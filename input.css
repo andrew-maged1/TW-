@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.Deploy
+{
+    @apply w-full md:w-1/3 flex items-start space-x-4 p-4 mx-2.5 bg-white shadow rounded-lg  dark:bg-gray-900 dark:text-white  dark:shadow-white
+}
